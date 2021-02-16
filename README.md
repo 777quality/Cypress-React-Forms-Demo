@@ -1,7 +1,7 @@
 # Cypress automation demo on a React form :rocket:
 
 ## Summary
-This project consists of a Cypress Automation Testing Framework 🤖, for testing the UI a ReactJS / Node.js application.
+This project consists of a Cypress Automation Testing Framework 🤖, for testing the UI of a ReactJS / Node.js application.
 
 To ensure maintainability, scalability, and 
 
