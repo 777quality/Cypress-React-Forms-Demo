@@ -14,9 +14,14 @@ To ensure maintainability, scalability, and
 
 * Negative tests - the full extent of negative tests have not been included in this demo test suite
 
+## Prerequisites
+
+* NodeJS & NPM: https://nodejs.org/en/download/
+* Cypress, installed in the same directory as you place this git repo, run ``` npm install cypress --save-dev ```
+
 ## How to run
 
-1) Clone this repository from GitHub
+1) Clone this repository from GitHub & install Cypress
 
 2) Initialise the React demo application with:
 
