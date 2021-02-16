@@ -3,16 +3,19 @@
 ## Summary
 This project consists of a Cypress Automation Testing Framework 🤖, for testing the UI of a ReactJS / Node.js application.
 
-To ensure maintainability, scalability, and 
+To ensure maintainability / scalability:
 
 * Page Object Model, has been utilised to ensure future test maintainability. WebElemnent Locators are kept seperate from the tests.
 * Web Locators have been carefully selected to resist DOM structure changes. The application has been updated to include the attribute: [data-testid=attributename]
 * Test have been written to run on both Desktop and Mobile resolutions
 * This demo makes use of Data Driven Tests, creating 3 test cases from 1 written test (one each for Normal, Urgent and High priorities). The test data is stored in an externalised JSON file.
 
-## Out of Scope
+## Further possible enhancements
+
+Not seen as necessary for the purposes of this demo:
 
 * Negative tests - the full extent of negative tests have not been included in this demo test suite
+* Enhanced reusability through Cypress Custom Commands
 
 ## Prerequisites
 
