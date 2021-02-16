@@ -47,7 +47,8 @@ function FeedbackForm({ send }) {
           <Typography component="paragraph" variant="subtitle1" color="textSecondary">Fields marked as * are required.</Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <TextField 
+          <TextField
+            inputProps={{ "data-testid": "firstname" }}
             className="feedback-form__first-name"
             margin="normal"
             required
@@ -59,7 +60,8 @@ function FeedbackForm({ send }) {
           />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <TextField 
+          <TextField
+            inputProps={{ "data-testid": "lastname" }}
             className="feedback-form__last-name"
             margin="normal"
             required
@@ -71,7 +73,8 @@ function FeedbackForm({ send }) {
           />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <TextField 
+          <TextField
+            inputProps={{ "data-testid": "email" }}
             className="feedback-form__email"
             margin="normal"
             required
@@ -84,7 +87,8 @@ function FeedbackForm({ send }) {
           />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <TextField 
+          <TextField
+            inputProps={{ "data-testid": "phone" }}
             className="feedback-form__phone"
             margin="normal"
             required
@@ -97,7 +101,8 @@ function FeedbackForm({ send }) {
             />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <TextField 
+          <TextField
+            inputProps={{ "data-testid": "company" }}
             className="feedback-form__company"
             margin="normal"
             fullWidth
@@ -108,7 +113,8 @@ function FeedbackForm({ send }) {
             />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <TextField 
+          <TextField
+            inputProps={{ "data-testid": "postcode" }}
             className="feedback-form__postcode"
             margin="normal"
             fullWidth
@@ -121,7 +127,7 @@ function FeedbackForm({ send }) {
             />
         </Grid>
         <Grid item xs={12} sm={6}>
-          <FormControl 
+          <FormControl
             className="feedback-form__priority"
             fullWidth 
             id="postcode"
@@ -131,6 +137,7 @@ function FeedbackForm({ send }) {
             >
             <InputLabel htmlFor="priority">Priority</InputLabel>
             <Select
+              inputProps={{ "data-testid": "prioritydrop" }}
               native
               >
               <option value={1}>Normal</option>
@@ -140,7 +147,8 @@ function FeedbackForm({ send }) {
           </FormControl>
         </Grid>
         <Grid item xs={12}>
-          <TextField 
+          <TextField
+            inputProps={{ "data-testid": "feedback" }}
             className="feedback-form__feedback"
             margin="normal"
             fullWidth
@@ -156,6 +164,8 @@ function FeedbackForm({ send }) {
         </Grid>
         <Grid item xs={12}>
           <Button
+            data-testid="submitbtn"
+            inputProps={{ "data-testid": "submitbtn" }}
             className="feedback-form__submit"
             type="submit"
             fullWidth

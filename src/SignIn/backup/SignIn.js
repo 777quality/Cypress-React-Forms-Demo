@@ -50,8 +50,7 @@ function SignIn({ failedLogIn, validate }) {
           autoFocus
           onChange={(e) => setUsername(e.target.value)}
         />
-        <TextField
-          inputProps={{ "data-testid": "password" }}
+        <TextField 
           className="signin-form__password"
           variant="outlined"
           margin="normal"

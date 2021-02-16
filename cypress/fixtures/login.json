@@ -1,0 +1,5 @@
+{
+    "BaseUrl": "http://localhost:3000/",
+    "User": "l.jenkins",
+    "Pass": "hunter2"
+  }
